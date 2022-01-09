@@ -1,0 +1,38 @@
+.bp-item__container {
+  width: 70%;
+}
+
+.bp-item__container div {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  /* width: 369px; */
+  border: solid 3px var(--dark-maroon);
+  background-color: var(--white);
+  margin: 0 auto;
+  transform: translateY(-50%);
+}
+
+.bp-item__container img {
+  width: 100%;
+}
+
+.bp-item__title {
+  /* width: 188px; */
+  /* padding: 15px 0 15px 27px; */
+  padding: 2rem 1rem;
+}
+
+.bp-item__button {
+  margin: 6px 8px 6px 0;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  border-width: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .bp-item__container {
+    width: 25rem;
+  }
+}

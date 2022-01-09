@@ -1,0 +1,120 @@
+.what-happened__container {
+  position: relative;
+  /* height: 1550px; */
+  overflow: hidden;
+}
+
+.what-happened__body {
+  /* width: 1920px; */
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.what-happened__title {
+  text-transform: uppercase;
+  margin: 15rem 0 5rem 0;
+}
+
+.what-happened__subtitle {
+  font-size: 20px;
+  margin: 0 auto 53px;
+  text-align: center;
+  max-width: 70rem;
+}
+
+.what-happened__video {
+  margin: 7rem 0 4rem;
+  z-index: 200;
+  width: 90%;
+}
+
+.what-happened__video-object {
+  display: none;
+}
+
+.what-happened__video-object-01 {
+  position: absolute;
+  bottom: 0;
+  left: 350px;
+  z-index: 100;
+}
+
+.what-happened__video-object-02 {
+  position: absolute;
+  width: 90px;
+  height: 83px;
+  bottom: 120px;
+  right: 630px;
+  z-index: 100;
+}
+
+.what-happened__video-object-03 {
+  position: absolute;
+  bottom: 170px;
+  left: 220px;
+  z-index: 0;
+}
+
+.what-happened__video-object-04 {
+  position: absolute;
+  top: 320px;
+  left: -330px;
+  z-index: 0;
+}
+
+.what-happened__video-object-05 {
+  position: absolute;
+  top: 0px;
+  left: 226px;
+  z-index: 0;
+}
+
+.what-happened__video-object-06 {
+  position: absolute;
+  top: 270px;
+  right: 244px;
+  z-index: 100;
+}
+
+.what-happened__video-object-07 {
+  position: absolute;
+  top: 156px;
+  right: 138px;
+  z-index: 0;
+}
+
+.what-happened__video-object-08 {
+  position: absolute;
+  bottom: 100px;
+  right: -110px;
+  width: 512px;
+  height: 512px;
+  z-index: 100;
+}
+
+.what-happened__video-object-09 {
+  position: absolute;
+  bottom: 530px;
+  right: -150px;
+  width: 315px;
+  height: 315px;
+  z-index: 0;
+}
+
+@media screen and (min-width: 1500px) {
+  .what-happened__body {
+    padding-bottom: 25rem;
+  }
+
+  .what-happened__video-object {
+    display: block;
+  }
+
+  .what-happened__video {
+    margin: 7rem 0 4rem;
+    z-index: 200;
+    width: 64%;
+  }
+}

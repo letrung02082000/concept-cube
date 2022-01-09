@@ -1,0 +1,11 @@
+.see-more__button {
+  text-transform: uppercase;
+  height: 6rem;
+  border: 3px solid var(--dark-maroon);
+  border-radius: 4px;
+  padding: 0 37px 0;
+  background-color: transparent;
+  font-size: 23px;
+  cursor: pointer;
+  margin: 0 auto;
+}

@@ -1,0 +1,176 @@
+.brand-story__container {
+  background-color: var(--cerulean);
+  position: relative;
+  overflow: hidden;
+}
+
+.brand-story__header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.brand-story__title {
+  padding: 5rem 0 4rem 0;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.brand-story__subtitle {
+  padding: 1rem 5rem;
+}
+
+.brand-story__body {
+  margin: 0 auto;
+}
+
+.brand-story-body__container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1rem;
+  background-color: var(--white);
+  z-index: 200;
+}
+
+.brand-story-body__line {
+  position: relative;
+  width: 100%;
+  height: 24px;
+  background-color: var(--black-two);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
+.brand-story-body__line div {
+  width: 1235px;
+  height: 9px;
+  border: 3px solid var(--cerulean);
+}
+
+.brand-story__left img {
+  height: 100%;
+}
+
+.brand-story__right {
+  margin: 0 auto;
+}
+
+.brand-story__right h4 {
+  padding: 4rem 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.brand-story__right p {
+  padding: 0 0.5rem 4rem 0.5rem;
+  text-align: center;
+}
+
+.brand-story__button {
+  display: flex;
+  justify-content: center;
+}
+
+.brand-story__object {
+  display: none;
+}
+
+.brand-story__object1 {
+  position: absolute;
+  top: 230px;
+  left: 169px;
+  z-index: 0;
+}
+
+.brand-story__object2 {
+  position: absolute;
+  top: 61px;
+  right: 256px;
+}
+
+.brand-story__object3 {
+  position: absolute;
+  top: 114px;
+  right: 171px;
+}
+
+.brand-story__object4 {
+  position: absolute;
+  top: 300px;
+  right: -100px;
+}
+
+.brand-story__object5 {
+  position: absolute;
+  top: 580px;
+  right: 0;
+  z-index: 0;
+}
+
+.brand-story__object6 {
+  position: absolute;
+  bottom: 210px;
+  left: 0;
+}
+
+.brand-story__object7 {
+  position: absolute;
+  bottom: 210px;
+  left: 192px;
+  z-index: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .brand-story__body {
+    flex-direction: row;
+    max-width: 70%;
+    margin: 0 auto;
+    padding-bottom: 15rem;
+  }
+
+  .brand-story__button {
+    margin-bottom: 5rem;
+  }
+
+  .brand-story__title {
+    margin: 15rem auto 0rem;
+    padding: 0;
+  }
+
+  .brand-story__subtitle {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding-bottom: 10rem;
+  }
+
+  .brand-story__left {
+    width: 50%;
+  }
+
+  .brand-story__right {
+    width: 50%;
+  }
+
+  .brand-story__right p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .brand-story__left img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .brand-story__subtitle {
+    margin-bottom: 5rem;
+  }
+
+  .brand-story__object {
+    display: block;
+  }
+}

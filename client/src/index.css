@@ -1,0 +1,302 @@
+/* import fonts: 'Montserrat', Noto Sans Korean */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,800&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('./fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url('./fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('./fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBoldItalic;
+  src: url('./fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf')
+    format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url('./fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: NotoSans-Light;
+  src: url('./fonts/NotoSans/NotoSansKR-Light.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: NotoSans-Regular;
+  src: url('./fonts/NotoSans/NotoSansKR-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: NotoSans-Medium;
+  src: url('./fonts/NotoSans/NotoSansKR-Medium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+/* align */
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+/* title and text */
+.title-1 {
+  font-family: Montserrat-Bold;
+  font-size: 5rem;
+  color: var(--white);
+}
+
+.title-2 {
+  font-family: Montserrat-Bold;
+  font-size: 5rem;
+  color: var(--black);
+}
+
+.title-3 {
+  font-family: Montserrat-ExtraBold;
+  font-size: 5rem;
+  color: var(--white);
+}
+
+.title-4 {
+  font-family: Montserrat-ExtraBold;
+  font-size: 5rem;
+  color: var(--black);
+}
+
+.title-bold-1 {
+  font-family: Montserrat-Regular;
+  font-size: 1rem;
+  color: var(--black);
+}
+
+.title-bold-2 {
+  font-family: Montserrat-Bold;
+  font-size: 4.5rem;
+  color: var(--sun-yellow);
+}
+
+.title-bold-3 {
+  font-family: Montserrat-Bold;
+  font-size: 3rem;
+  color: var(--black);
+}
+
+.title-extrabold-3 {
+  font-family: Montserrat-ExtraBold;
+  font-size: 3rem;
+  color: var(--white);
+}
+
+.title-extrabold-4 {
+  font-family: Montserrat-ExtraBold;
+  font-size: 3rem;
+  color: var(--dark-brown);
+}
+
+.title-bold-5 {
+  font-family: Montserrat-Bold;
+  font-size: 5rem;
+  color: var(--black);
+}
+
+.title-extrabold-5 {
+  font-family: Montserrat-ExtraBold;
+  font-size: 5rem;
+  color: var(--black);
+}
+
+.title-extrabold-6 {
+  font-family: Montserrat-ExtraBold;
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.title-extrabold-7 {
+  font-family: Montserrat-ExtraBold;
+  font-size: 5rem;
+  color: var(--white);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-1 {
+  font-family: Montserrat-Regular;
+  font-size: 1rem;
+  color: var(--white);
+}
+
+.text-2 {
+  font-family: Montserrat-Regular;
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.text-3 {
+  font-family: Montserrat-Regular;
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.text-4 {
+  font-family: NotoSans-Light;
+  font-size: 1rem;
+  color: var(--sun-yellow);
+}
+
+.text-5 {
+  font-family: Montserrat-Regular;
+  font-size: 5rem;
+  color: var(--white);
+}
+
+.text-6 {
+  font-family: NotoSans-Light;
+  font-size: 1rem;
+  color: var(--black);
+}
+
+.text-extrabold-2 {
+  font-family: Montserrat-ExtraBold;
+  font-size: 1rem;
+  color: var(--black-three);
+}
+
+.Footer-Text-Bold {
+  font-family: Montserrat-ExtraBold;
+  font-size: 1.5rem;
+  color: var(--black-two);
+}
+
+.Footer-Text-Regular {
+  font-family: Montserrat-Regular;
+  font-size: 1rem;
+  color: var(--black-two);
+}
+
+/* margin and padding */
+
+.m-1 {
+  margin-top: 1rem;
+}
+
+.m-2 {
+  margin-top: 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+/* color variables */
+
+:root {
+  --black: #1a1a1a;
+  --tomato: #ea4913;
+  --cerulean: #0565bb;
+  --white-two: #eee;
+  --kelley-green: #00833f;
+  --lavender: #c6b8f5;
+  --dark-brown: #110e03;
+  --bright-orange-two: #f50;
+  --mango: #ffb225;
+  --tomato-two: #e84c33;
+  --bluish: #2584b3;
+  --sand: #dabb5e;
+  --copper: #c73c27;
+  --mango-two: #ffb227;
+  --eggshell: #fffbd8;
+  --tomato-three: #e0412a;
+  --light-grey: #ced1c8;
+  --pinkish-grey: #d4c4ab;
+  --cloudy-blue: #b1d1cf;
+  --light-grey-two: #d8dad7;
+  --mid-blue: #245fc5;
+  --greyish: #a9a9a9;
+  --sun-yellow: #fcd32a;
+  --black-four: #333;
+  --dark: #1c2027;
+  --white-three: #f4f4f4;
+  --brownish-grey: #666;
+  --pumpkin-orange: #fa7b26;
+  --pinkish-grey-two: #ccc8c6;
+  --white-four: #f1f1f1;
+  --dark-maroon: #020001;
+  --black-three: #222;
+  --clear-blue: #157eff;
+  --black-two: #111;
+  --white: #fff;
+  --bright-orange: #f96400;
+  --goldenrod: #fccb05;
+  --back-ground: #fff;
+}
+
+:root {
+  --spacing-xl: 2.4rem;
+}

@@ -1,0 +1,34 @@
+.best-product__container {
+  background-image: url('../../public/img/bes-bg.png');
+}
+
+.best-product__item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.best-product__title {
+  padding: 2rem 0;
+  text-transform: uppercase;
+  color: var(--bright-orange);
+}
+
+.best-product__description {
+  margin: 0 auto;
+  padding: 2rem;
+  color: var(--bright-orange);
+}
+
+@media screen and (min-width: 768px) {
+  .best-product__item-container {
+    flex-direction: row;
+  }
+
+  .best-product__description {
+    /* width: 100%; */
+    max-width: 72rem;
+  }
+}

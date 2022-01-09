@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a3c581ef.css",
+    "main.js": "./static/js/main.cdf2fe54.js",
+    "static/js/787.01941ec9.chunk.js": "./static/js/787.01941ec9.chunk.js",
+    "static/media/NotoSansKR-Medium.otf": "./static/media/NotoSansKR-Medium.72ba455576ce8174ffa8.otf",
+    "static/media/NotoSansKR-Regular.otf": "./static/media/NotoSansKR-Regular.457762eaaf7bb2aa2893.otf",
+    "static/media/NotoSansKR-Light.otf": "./static/media/NotoSansKR-Light.7bad2c5773f7229b1931.otf",
+    "static/media/Montserrat-ExtraBoldItalic.ttf": "./static/media/Montserrat-ExtraBoldItalic.6849a97dd651acfb619a.ttf",
+    "static/media/Montserrat-Regular.ttf": "./static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-ExtraBold.ttf": "./static/media/Montserrat-ExtraBold.1944c8d1a118759a4435.ttf",
+    "static/media/Montserrat-Bold.ttf": "./static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "./static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
+    "static/media/introduction-bg.png": "./static/media/introduction-bg.1563ce83b42f58ae1bd1.png",
+    "static/media/bes-bg.png": "./static/media/bes-bg.08b8b84fc261d1f48948.png",
+    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "./index.html",
+    "main.a3c581ef.css.map": "./static/css/main.a3c581ef.css.map",
+    "main.cdf2fe54.js.map": "./static/js/main.cdf2fe54.js.map",
+    "787.01941ec9.chunk.js.map": "./static/js/787.01941ec9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3c581ef.css",
+    "static/js/main.cdf2fe54.js"
+  ]
+}

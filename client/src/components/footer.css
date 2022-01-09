@@ -1,0 +1,102 @@
+.footer__container {
+  /* height: 464px;
+  width: 1920px; */
+  margin-top: 15rem;
+  padding: 0 5rem;
+}
+
+.footer__top {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* padding: 0 100px; */
+}
+
+.footer__left {
+  /* width: 240px; */
+}
+
+.footer__left h4 {
+  text-align: left;
+}
+
+.footer__right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* width: 609px; */
+}
+
+.footer__column {
+  margin-top: 1.5rem;
+}
+
+.footer__left h4 {
+  margin-bottom: 2rem;
+}
+
+.footer__right h4 {
+  margin-bottom: 2rem;
+}
+
+.footer__about-us {
+  /* width: 82px; */
+}
+
+.footer__my-order {
+  /* width: 128px; */
+}
+
+.footer__my-account {
+  /* width: 90px; */
+}
+
+.footer__help {
+  /* width: 91px; */
+}
+
+.footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 83px;
+  justify-content: space-between;
+  /* padding: 0 100px; */
+}
+
+.footer__copyright {
+  size: 1.5rem;
+  color: var(--greyish);
+}
+
+.footer__facebook-icon {
+  margin: 0 1rem;
+}
+
+.footer__bottom div {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.footer__bottom img {
+  width: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__left {
+    width: 50%;
+  }
+
+  .footer__left p {
+    max-width: 40%;
+  }
+
+  .footer__right {
+    width: 50%;
+    flex-direction: row;
+  }
+
+  .footer__column {
+    flex-basis: 10rem;
+  }
+}

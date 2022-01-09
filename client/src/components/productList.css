@@ -1,0 +1,22 @@
+.product-list__container {
+  display: flex;
+  /* margin: 0 auto 143px; */
+  justify-content: center;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  /* width: 1590px; */
+}
+
+.product-list__button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .product-list__container {
+    max-width: 160rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

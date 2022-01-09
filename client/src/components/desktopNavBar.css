@@ -1,0 +1,19 @@
+.d-nav-item {
+  /* margin-left: 8rem; */
+  list-style: none;
+}
+
+.d-nav-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.d-nav-item a {
+  text-decoration: none;
+}
+
+.d-separate-rectangle {
+  width: 1px;
+  background-color: var(--pinkish-grey-two);
+}
